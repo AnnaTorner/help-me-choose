@@ -1,0 +1,25 @@
+button {
+  background-color: #99CCFF;
+  border: none;
+  padding: 15px 32px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+  margin-top: : 150px;
+  background-color: #0099FF;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  letter-spacing: normal;
+  margin-bottom: 0px
+}
+.inputSection {
