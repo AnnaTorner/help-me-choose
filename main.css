@@ -1,25 +1,65 @@
-button {
-  background-color: #99CCFF;
-  padding: 15px 32px;
-  width: 250px;
-  border-radius: 8px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-}
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center
-  margin-top: : 150px;
+  align-items: center;
+  margin-top: 150px;
   background-color: #0099FF;
 }
+
 h1 {
+  text-align: center;
+  font-family: Verdana, sans-serif;
   font-weight: bold;
-  font-size: 50px;
-  letter-spacing: normal;
-  margin-bottom: 0px
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+  color: #FFFF;
+  te
 }
+
 .inputSection {
+  margin: 50px 0px 80px 0px;
+  width: 400;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+  padding: 4px;
+  border-radius: 7px;
+  height: 20px;
+  align-content: center;
+  font-family: Verdana, sans-serif;
+}
+
+.addOption {
+  margin-top: 10px;
+  background-color: #99CCFF;
+  padding: 4px 4px;
+  width: 40px;
+  border-radius: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 12px;
+}
+.choose {
+  background-color: #99CCFF;
+  padding: 7px 7px;
+  width: 80px;
+  border-radius: 7px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15px;
+}
